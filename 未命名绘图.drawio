@@ -1,1 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T03:24:54.944Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" version="14.9.3" etag="Z0YbBOJPslWwlVhUJo1l" type="github"><diagram id="pxgA3BaXCQKVP7Kzm4qv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-03T03:37:00.497Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0" etag="J_4Qk7zsaBxBnNGXoBDO" version="14.9.3" type="github">
+  <diagram id="pxgA3BaXCQKVP7Kzm4qv" name="第 1 页">
+    <mxGraphModel dx="1422" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RIN155TWg9esCMhe6VPX-1" value="NameServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-2" value="NameServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-3" value="Broker&lt;br&gt;MASTER1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-5" value="Broker&lt;br&gt;MASTER2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-6" value="Broker&lt;br&gt;SLAVE1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D5E8D4;strokeColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-7" value="Broker&lt;br&gt;SLAVE2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D5E8D4;strokeColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-15" value="" style="endArrow=classic;html=1;exitX=-0.027;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RIN155TWg9esCMhe6VPX-3" target="RIN155TWg9esCMhe6VPX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="341" y="93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-16" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="RIN155TWg9esCMhe6VPX-6" target="RIN155TWg9esCMhe6VPX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-23" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIN155TWg9esCMhe6VPX-16">
+          <mxGeometry x="0.6351" y="-1" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="560" y="71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-28" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIN155TWg9esCMhe6VPX-17">
+          <mxGeometry x="0.6405" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-18" value="" style="endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="RIN155TWg9esCMhe6VPX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="200" as="sourcePoint" />
+            <mxPoint x="660" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-27" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIN155TWg9esCMhe6VPX-18">
+          <mxGeometry x="0.2715" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="RIN155TWg9esCMhe6VPX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="300" as="sourcePoint" />
+            <mxPoint x="660" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="680" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-26" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIN155TWg9esCMhe6VPX-19">
+          <mxGeometry x="0.2117" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-20" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="RIN155TWg9esCMhe6VPX-5" target="RIN155TWg9esCMhe6VPX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-21" value="" style="endArrow=classic;html=1;exitX=-0.009;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RIN155TWg9esCMhe6VPX-7" target="RIN155TWg9esCMhe6VPX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-22" value="" style="endArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="RIN155TWg9esCMhe6VPX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="170" as="sourcePoint" />
+            <mxPoint x="380" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-29" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIN155TWg9esCMhe6VPX-22">
+          <mxGeometry x="0.4218" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-24" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="189.99887796404016" y="100.00007859381974" as="geometry" />
+        </mxCell>
+        <mxCell id="RIN155TWg9esCMhe6VPX-25" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="245.88887796404015" y="100.00007859381974" as="geometry">
+            <mxPoint x="91" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
